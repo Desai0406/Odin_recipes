@@ -1,0 +1,63 @@
+/*Degree of specificity decreases*/
+
+*
+{
+    background-color: antiquewhite;
+}
+
+img
+{
+    height: 250px;
+    width: 275px;
+    border: 3px solid rgb(65, 58, 62);
+}
+
+button
+{
+    border: 3px dashed rgb(128, 123, 123);
+}
+
+div.samosa_image 
+{ 
+    text-align: center;
+}
+
+button.samosa
+{
+    position: absolute;
+    top: 43%;
+    left: 47.8%;
+    height: 40px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.paratha_image /*Doesnt matter but let it stay (Flickering)*/
+{
+    text-align: left;
+}
+
+button.paratha
+{
+    position: absolute;
+    top: 72.5%;
+    left: 25.3%;
+    height: 40px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.cake_image
+{
+    text-align: right;
+}
+
+button.cake
+{
+    position: absolute;
+    top:72.7%;
+    right: 22.7%;
+    height: 40px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

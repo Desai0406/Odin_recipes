@@ -1,18 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index page</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <img src="./recipes/images/samosa.jpeg"><br>
-    <a href="./recipes/samosa.html"><strong>Samosa</strong></a><br><br>
-    <img src="./recipes/images/paratha.png"><br>
-    <a href="./recipes/paratha.html"><strong>Aloo paratha</strong></a><br><br>
-    <img src="./recipes/images/cake.jpeg"><br>
-    <a href="./recipes/cake.html"><strong>Eggless chocolate cake</strong></a><br>
+    <h1 style="text-align: center; color: rgb(171, 115, 37); font-family: Arial, Helvetica, sans-serif; font-size: 50px;">Odin Recipes</h1>
+    <br>
+<!--Samosa image and button-->
+    <div class="samosa_image">
+        <img src="./recipes/images/samosa.jpeg">
+    </div>
+    <a href="./recipes/samosa.html"><button class="samosa">Samosa</button></a>
+    <br>
+
+<!--Paratha image and button-->
+    <div class="paratha_image">
+        <img style="position: relative; left: 400px;" src="./recipes/images/paratha.jpeg">
+    </div>
+    <a href="./recipes/paratha.html"><button class="paratha">Aloo paratha</button></a>
+    <br>
+
+<!--Cake image and button-->
+    <div class="cake_image">
+        <img style="position: relative; right: 400px; bottom: 275px;" src="./recipes/images/cake.jpeg">
+    </div>
+    <a href="./recipes/cake.html"><button class="cake">Eggless chocolate cake</button></a>
+    <br>
 </body>
 </html>

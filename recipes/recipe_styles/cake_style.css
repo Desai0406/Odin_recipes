@@ -1,0 +1,28 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(250, 196, 250);
+    font-size: large;
+}
+
+h1, h2
+{
+    color: rgb(123, 39, 91);
+    font-size: x-large;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 40px;
+}
+
+div /* All photos have been centered. */
+{
+    text-align: center;
+}
+
+img
+{
+    border: 3px solid black;
+}
